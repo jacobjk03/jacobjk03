@@ -16,6 +16,19 @@ I specialize in building production-grade Machine Learning systems, with a focus
 
 #### 👤 Personal Projects (GenAI & Data Science)
 * **[Medical Agentic RAG](https://github.com/jacobjk03/Medical_chatbot):** A GenAI system using hybrid LLM orchestration (MedGemma + LLaMA-3) and LangGraph to provide factually grounded medical reasoning.
+graph TD
+    A[User Query] --> B{Agentic Router}
+    B -->|Medical Query| C[Pinecone Vector Search]
+    B -->|General/Recent| D[Web Search Tool]
+    C --> E[Cross-Encoder Reranker]
+    E --> F[MedGemma / LLaMA-3 LLM]
+    D --> F
+    F --> G[Thought: Reasoning Chain]
+    G --> H[Action: Tool Call]
+    H --> I[Observation: Context]
+    I --> J{Sufficient Info?}
+    J -->|No| G
+    J -->|Yes| K[Final Answer with Disclaimers]
 * **[Walmart Sales Pipeline](https://github.com/jacobjk03/Data-Driven-Walmart-Sales-Predictions):** An end-to-end forecasting project featuring SARIMA/LSTM models, **MLflow** for tracking, and **DVC** for data versioning.
 
 #### 👥 Team Projects (GenAI, MLOps & Software Dev)
