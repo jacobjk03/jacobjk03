@@ -80,4 +80,8 @@ graph LR
 
 ---
 
-📫 **Connect with me:** [LinkedIn](https://www.linkedin.com/in/jacob-kuriakose) | [Portfolio Website](https://www.jacobkuriakose.com/)
+### 📫 Connect with me
+<p align="left">
+<a href="https://www.linkedin.com/in/jacob-kuriakose"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://www.jacobkuriakose.com/"><img src="https://img.shields.io/badge/Portfolio_Website-4E4E4E?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
+</p>
