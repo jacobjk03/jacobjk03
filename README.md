@@ -16,6 +16,7 @@ I specialize in building production-grade Machine Learning systems, with a focus
 
 #### 👤 Personal Projects (GenAI & Data Science)
 * **[Medical Agentic RAG](https://github.com/jacobjk03/Medical_chatbot):** A GenAI system using hybrid LLM orchestration (MedGemma + LLaMA-3) and LangGraph to provide factually grounded medical reasoning.
+```mermaid
 graph TD
     A[User Query] --> B{Agentic Router}
     B -->|Medical Query| C[Pinecone Vector Search]
@@ -29,12 +30,37 @@ graph TD
     I --> J{Sufficient Info?}
     J -->|No| G
     J -->|Yes| K[Final Answer with Disclaimers]
+
 * **[Walmart Sales Pipeline](https://github.com/jacobjk03/Data-Driven-Walmart-Sales-Predictions):** An end-to-end forecasting project featuring SARIMA/LSTM models, **MLflow** for tracking, and **DVC** for data versioning.
+
+graph LR
+    Data[(Raw Data)] --> DVC[DVC Versioning]
+    DVC --> Train[Model Training: LSTM/SARIMA]
+    Train --> MLflow[MLflow Experiment Tracking]
+    MLflow --> Best[Best Model Selection]
+    Best --> API[FastAPI Deployment]
+    API --> Pred[Sales Forecasts]
 
 #### 👥 Team Projects (GenAI, MLOps & Software Dev)
 * **[Waterbot (AWS Migration)](https://github.com/jacobjk03/waterbot/tree/main):** Led the transition of this AI chatbot to a CISA-compliant AWS stack (ECS, Lambda, Bedrock), slashing release times by **85%**.
-* **[Navia](https://github.com/jacobjk03/Navia):** An end-to-end product integrating GenAI capabilities with full-stack software development to solve real-world user needs.
 
+graph TD
+    User((User)) --> CF[CloudFront]
+    CF --> ALB[Load Balancer]
+    ALB --> ECS[ECS on Fargate]
+    subgraph AWS CISA Infrastructure
+    ECS --> Bedrock[Amazon Bedrock Knowledge Base]
+    ECS --> S3[S3 Assets]
+    ECS --> DB[(DynamoDB)]
+    end
+    CDK[AWS CDK] -->|IaC Provisioning| AWS
+
+* **[Navia](https://github.com/jacobjk03/Navia):** An end-to-end product integrating GenAI capabilities with full-stack software development to solve real-world user needs.
+graph LR
+    UI[React Frontend] --> Vercel[Hosted on Vercel]
+    Vercel --> API[TypeScript Backend]
+    API --> Agent[Agentic AI Chatbot]
+    Agent --> LLM[LLM Orchestration]
 ---
 
 ### 🛠️ Technical Toolkit
