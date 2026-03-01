@@ -74,6 +74,29 @@ graph LR
     Agent --> LLM[LLM Orchestration]
 ```
 
+### 📂 Featured Projects
+
+| 👤 Personal (GenAI & Data Science) | 👥 Team (MLOps & Software Dev) |
+| :--- | :--- |
+| **[Medical Agentic RAG](https://github.com/jacobjk03/Medical_chatbot)**<br>Hybrid LLM orchestration (MedGemma + LLaMA-3) and LangGraph. | **[Waterbot (AWS Migration)](https://github.com/jacobjk03/waterbot/tree/main)**<br>CISA-compliant AWS stack (ECS, Lambda, Bedrock) with **85% ↑** efficiency. |
+| **[Walmart Sales Pipeline](https://github.com/jacobjk03/Data-Driven-Walmart-Sales-Predictions)**<br>End-to-end forecasting with **MLflow** and **DVC**. | **[Navia](https://github.com/jacobjk03/Navia)**<br>Full-stack product integrating GenAI with TypeScript and React. |
+
+---
+
+#### 🏗️ System Architectures
+
+<div align="center">
+
+| 🩺 Medical RAG (Personal) | 🛒 Walmart Pipeline (Personal) |
+| :--- | :--- |
+| ![Medical Architecture](https://mermaid.ink/img/pako:eNqNkk1LAzEQhv_KMNee9Af0IggVvYigB8GLl-02u002O5uYpS3S_90kXatVvLg8M88775vJpE_SGBMo6M0reS0pB_IsF6vO99m8pAn4B61P5mN69pI1Y0H_vW_MIdvO1G3K_9mXpq0f4yZ_lX77_T_XN0O2H_D8tX_H38hK-zH-vH_L6znbz8m_eN4-pOfv8vRrfz9m--n5m76_9_dzth_x_LV_x9_ISvtx_rx_y-s528_Jv3jePqTn7_L0a38_Zvvp-Zu-v_f38_O62W7X-xM26o_Y) | ![Walmart Pipeline](https://mermaid.ink/img/pako:eNqNkc9KAzEQxl_FmGtP-gN6EYSKXkTQg-DFy3ab3SabnU3M0hbpuyfptFrFi8sz_L7v_DKZDInaHCDozSt5Iyknck_O1m0as3mJB_IP2p_MZ_S8JWtOf9-3-pA9T3Wf8mX-mbm7n9Mof8tfu-_2_7ndDHn9COdf-nf6jdxrN86fdX95M_f6OfUXL9un9LzN7z7312Oun97f6fvLX8-5fnr9pt-v_vWc60c8f-nf6Tdyr904f9b95c3c6-fUX7xsn9LzNr_73F-PuX56f6fvL3895_p5Xbfbx_0JS_U7bPcf8-V32A) |
+| 💧 Waterbot AWS (Team) | 🧭 Navia Flow (Team) |
+| ![Waterbot AWS](https://mermaid.ink/img/pako:eNqNkc1KAzEQxl_FmGtP-gN6EYSKXkTQg-DFy3ab3SabnU3M0hbpuyfpWq3ixeWZed93_plMhlidBwj68ELeSsqB3MtF2_ke69e0Av-o7cF8QM9BsmbM6G_7xh6y60zf5HzKvzRv_Rh2-Wv-0373v_fbeMjrS7z80r-Tb-SxeR9_3v_k_ZzN5-RfPG8f0vN_8_Rzfx9m-un5m76_8vczm494-dK_k2_ksXkff97_5P2czeXkXzxvH9Lzf_P0c38fZvrp-Zu-v_L3M5uv29u7xw8W6n_Y7L_6hW__AgvbeX0) | ![Navia Flow](https://mermaid.ink/img/pako:eNqNkc1KAzEQxl_FmGtP-gN6EYSKXkTQg-DFy3ab3SabnU3M0hbpuyfpWq3ixeWZed93_plMhlidBwj68ELeSsqB3MtF2_ke69e0Av-o7cF8QM9BsmbM6G_7xh6y60zf5HzKvzRv_Rh2-Wv-0373v_fbeMjrS7z80r-Tb-SxeR9_3v_k_ZzN5-RfPG8f0vN_8_Rzfx9m-un5m76_8vczm494-dK_k2_ksXkff97_5P2czeXkXzxvH9Lzf_P0c38fZvrp-Zu-v_L3M5uv29u7xw8W6n_Y7L_6hW__AgvbeX0) |
+
+</div>
+
+---
+
 ---
 
 ### 🛠️ Technical Toolkit
