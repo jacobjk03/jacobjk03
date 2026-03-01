@@ -75,8 +75,6 @@ graph LR
 
 ### 🛠️ Technical Toolkit
 
-### 🛠️ Technical Toolkit
-
 **Data Science & Machine Learning (Core)**
 <p align="left">
   <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
@@ -104,7 +102,6 @@ graph LR
   <img src="https://img.shields.io/badge/LangGraph-000000?style=flat-square&logo=langchain&logoColor=white" />
   <img src="https://img.shields.io/badge/LlamaIndex-000000?style=flat-square&logo=llama&logoColor=white" />
   <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/Anthropic-754630?style=flat-square&logo=anthropic&logoColor=white" />
   <img src="https://img.shields.io/badge/Vector_DB-Pinecone-000000?style=flat-square&logo=pinecone&logoColor=white" />
 </p>
 
@@ -129,6 +126,16 @@ graph LR
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+</p>
+
+**AI-First Development & IDEs**
+<p align="left">
+  <img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white" />
+  <img src="https://img.shields.io/badge/Windsurf-1E1E1E?style=flat-square&logo=visual-studio-code&logoColor=007ACC" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" />
+  <img src="https://img.shields.io/badge/Antigravity-FF4B4B?style=flat-square&logo=rocket&logoColor=white" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" />
 </p>
 
 ---
