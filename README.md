@@ -6,9 +6,12 @@ I specialize in building production-grade Machine Learning systems, with a focus
 ---
 
 ### 🚀 High-Impact Engineering
-* **Cloud & MLOps:** Led the migration of a production-grade AI chatbot to **AWS**, improving deployment efficiency by **~85%** and reducing manual setup by **~40%** using **AWS CDK**.
-* **Generative AI:** Engineered an agentic **Medical Chatbot** featuring a **ReAct** architecture with **MedGemma** and **LLaMA-3**, achieving a $F1 \approx 0.84$ for factual grounding and a **1.0 Safety score**.
-* **Time Series & Forecasting:** Optimized Walmart sales predictions, achieving a **38.92% RMSE improvement** using Exponential Smoothing; integrated **MLflow** and **DVC** for full experiment tracking.
+
+| Domain | Core Accomplishment | Key Result |
+| :--- | :--- | :--- |
+| **☁️ Cloud & MLOps** | Migrated production AI chatbot to **AWS** via **AWS CDK** | **85% ↑** Deployment Efficiency |
+| **🤖 Generative AI** | Engineered Agentic **Medical Chatbot** (ReAct + LLaMA-3) | **0.84 $F1$** / **1.0 Safety** |
+| **📈 Forecasting** | Optimized Walmart Sales predictions via **MLflow & DVC** | **38.92% ↓** RMSE |
 
 ---
 
